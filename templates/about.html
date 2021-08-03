@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <style>
+    body {
+        {% comment %} background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://i.pinimg.com/originals/7b/50/20/7b5020dd70445976171bf410b149ef39.jpg') {% endcomment %}
+        background-image: url('../static/img/bg_image6.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:50%;
+        min-height:100vh;
+        
+    }
+    .accordion-body{
+      background:rgba(100,100,100,0.8);
+      font-family: 'Ubuntu', sans-serif;
+      font-size:25px;
+    }
+    .accordion-button
+    {
+      background:grey;
+      font-family: 'Ubuntu', sans-serif;
+      font-size:25px;
+    }
+   </style>
+    <title>About</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid py-2">
+    <a class="navbar-brand" href="/"><h4><strong>HOME</strong></h4></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="/about"><h4><strong>ABOUT</strong></h4></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="/projects"><h4><strong>PROJECTS</strong></h4></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="/contact"><h4><strong>CONTACT ME</strong></h4></a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item my-5">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+        INFO
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <center><h3 my-3><strong>Hello There !</strong></h3></center>
+        <center><h1><strong>I am Tushar Goyal</strong></h1></center>
+        <center>
+          I am a third-year <strong>electrical engineering</strong> undergrad student at <strong>IIT Indore(2019-2023).</strong>
+          I love fast and new technologies. I enjoy solving problems of data structures and algorithms and learning web development.
+          Currently, I am using Django for creating web applications. Still, I am always eager to learn new things, so I will surely try different frameworks and technologies to develop web applications.
+          With my knowledge and skills, I want to grow better and doing something worthwhile for other people.
+        </center>
+
+        <div class="container mx-4 my-3">
+          <div class="row">
+            <strong>Email Id</strong>
+            <br>
+            <ul>
+            <li>2911.tushargoyal@gmail.com</li>
+            <li>ee190002062@iiti.ac.in</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container mx-4 my-2">
+          <div class="row">
+            <strong>Contact No.</strong>
+            <br>
+            <ul>
+            <li>8279209275</li>
+            <li>9116924518</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item my-5">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Skills
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <ul>
+        <li>C++</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+        <li>Bootstrap</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item my-5">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Achievements And Scores
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <ul>
+        <li>
+        <strong>NTSE Scholar :</strong>
+        (National Talent Search Examination)
+        <br>
+        Scored under top 1000 students among 500000 total students
+        <br>
+        Awarded an annual scholarship by the government of India
+        </li>
+        <li><strong>STSE Scholar :</strong>
+        <br>
+        Secured a position in the merit list of state talent search examination
+        </li>
+        <li><strong>JEE Advance Rank : </strong>3099 out of 1.2 million students</li>
+        <li><strong>10th class CGPA : </strong>10.0</li>
+        <li><strong>12th class percentage: </strong>93.6%</li>
+        <li><strong>CPI : </strong>8.11</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item my-5">
+    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+        Hobbies
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+      <div class="accordion-body">
+        <ul>
+        <li>Cricket</li>
+        <li>Badminton</li>
+        <li>Songs</li>
+        <li>Binge Watching</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
