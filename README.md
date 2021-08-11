@@ -9,7 +9,6 @@ Database Used-dbsqlite3
 <br>
 The website is deployed at-https://tushargoyal-portfolio.herokuapp.com/
 <h1> The website includes following sections</h1>
-<br>
 1)Home page
 <br>
 2)About page
